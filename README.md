@@ -4,6 +4,14 @@ Hi!
 This repository contains project which we will use in two Apex Basic Dev sessions. Please complete the setup steps before our first session. If you have any question, please contact me on tomas.chour@bearingpoint.com or t.chourj@gmail.com.
 And don't forget to bring good mood :) .
 
+# Project overview
+
+World Wildlife organization (WWF) offers it’s customers to virtually adopt different animals from across the planet. Adoption is in form of monthly subscription payments from customers that wants to donate. WWF uses these funds to help these “adopted” animals to strive and survive in modern world.
+
+WWF uses Salesforce to manage information about their donors and their adoption subscriptions.
+
+They want to provide some motivation to attract new donors and keep existing ones. This project will go through implementing several User Stories to help WWF achieve their goal.
+
 
 # Steps to complete before session
 
