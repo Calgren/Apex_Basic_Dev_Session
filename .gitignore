@@ -11,3 +11,4 @@ IlluminatedCloud/
 .vscode/
 .history/
 .DS_Store
+package-lock.json
