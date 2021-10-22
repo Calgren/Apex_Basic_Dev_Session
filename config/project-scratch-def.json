@@ -1,0 +1,21 @@
+{
+  "orgName": "klosterfrau",
+  "edition": "Enterprise",
+  "adminEmail": "admin@klosterfrau.com.invalid",
+  "country": "DE",
+  "language": "en_US",
+  "features": [
+    "PersonAccounts",
+    "RecordTypes"
+  ],
+  "settings": {
+    "lightningExperienceSettings": {
+      "enableS1DesktopEnabled": true
+    },
+    "userManagementSettings": {
+      "enableEnhancedPermsetMgmt": true,
+      "enableEnhancedProfileMgmt": true,
+      "enableNewProfileUI": true
+    }
+  }
+}

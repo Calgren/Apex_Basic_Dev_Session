@@ -1,0 +1,13 @@
+# DX files
+.sfdx/
+
+# Node.js packages
+node_modules/
+
+# IDEs
+.idea/
+*.iml
+IlluminatedCloud/
+.vscode/
+.history/
+.DS_Store

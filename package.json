@@ -1,0 +1,26 @@
+{
+  "name": "sfdx-template",
+  "version": "0.1.0",
+  "license": "MIT",
+  "private": true,
+  "description": "default template for sfdx project",
+  "scripts": {
+    "lint": "npm run lint:lwc && npm run lint:aura",
+    "lint:lwc": "eslint src/**/lwc/** --no-error-on-unmatched-pattern",
+    "lint:aura": "eslint src/**/aura/** --no-error-on-unmatched-pattern",
+    "run-tests": "npm run lint",
+    "gen-record-types": "salesforce-source-gen record-types",
+    "prettier": "prettier --write \"src/**/*.{trigger,cls,cmp,component,css,html,js,json,md,page,xml,yaml,yml}\"",
+    "prettier:verify": "prettier --list-different \"src/**/*.{trigger,cls,cmp,component,css,html,js,json,md,page,xml,yaml,yml}\""
+  },
+  "engines": {
+    "node": ">= 12.22.6"
+  },
+  "devDependencies": {
+    "salesforce-source-gen": "latest",
+    "eslint-config-sf-common": "latest",
+    "eslint-config-prettier": "latest",
+    "prettier-plugin-apex": "latest",
+    "@prettier/plugin-xml": "latest"
+  }
+}
