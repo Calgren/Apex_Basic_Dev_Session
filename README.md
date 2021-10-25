@@ -20,4 +20,5 @@ They want to provide some motivation to attract new donors and keep existing one
 - Pull the source from remote **main** branch
 - Connect your dev org to the project
 - Deploy metadata into your org (all metadata for deploy are contained in **manifest/package.xml**)
-- TODO TEST DATA (will be provided till Monday 2021-10-25)
+- Import Animals and Account records from **data/Account.csv** and **data/Animals.csv** (you can use data import wizard from SF setup)
+- Run Anonymous Apex from **scripts/apex/anonApex** to create randomized AdoptionRecords (run apex from developer console)
